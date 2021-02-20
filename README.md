@@ -1,6 +1,6 @@
 
 # Bateria de correus
-Programa per enviar una sèrie de correus electrònics, d'un en un, cada certa estona. Jo el vaig crear per enviar un missatge romàntic cada hora a la meva xicota durant tot un dia de sant Valentí. Li va fer moltíssima il·lusió. Llàstima que ens separaven més de mil quilòmetres; si no, aquella nit hi hauria hagut molta festa.
+Programa per enviar una sèrie de correus electrònics, d'un en un, cada certa estona. Jo el vaig crear per enviar un missatge romàntic cada hora a la meva xicota durant tot un dia de sant Valentí. Li va fer moltíssima il·lusió.
 
 Tanmateix, es pot fer servir per qualsevol altre propòsit que requereixi de repetir la tasca d'enviar un correu amb continguts diferents cada vegada.
 
@@ -11,7 +11,7 @@ Llegiu aquesta secció per entendre com fer servir el programa
 El primer que cal fer és instal·lar les biblioteques `yagmail` i `keyring`. La biblioteca `keyring` es fa servir de manera implícita a l'hora de configurar un compte a `yagmail`. Podeu instal·lar-les alhora des de *Terminal* amb la següent instrucció, sempre i quan hàgiu navegat fins a la ubicació de `requisits.txt`:
 
 ```bash
-`pip install -r requisits.txt`
+pip install -r requisits.txt
 ````
 
 El programa també fa servir les biblioteques `time` i `random`, que són mòduls estàndards de *Python* i ja venen instal·lats.
