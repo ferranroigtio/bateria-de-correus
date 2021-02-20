@@ -10,7 +10,9 @@ Llegiu aquesta secció per entendre com fer servir el programa
 ### Biblioteques
 El primer que cal fer és instal·lar les biblioteques `yagmail` i `keyring`. La biblioteca `keyring` es fa servir de manera implícita a l'hora de configurar un compte a `yagmail`. Podeu instal·lar-les alhora des de *Terminal* amb la següent instrucció, sempre i quan hàgiu navegat fins a la ubicació de `requisits.txt`:
 
+```bash
 `pip install -r requisits.txt`
+````
 
 El programa també fa servir les biblioteques `time` i `random`, que són mòduls estàndards de *Python* i ja venen instal·lats.
 
